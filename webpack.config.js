@@ -1,8 +1,8 @@
 var webpack = require('webpack');
 var path = require('path');
 
-var BUILD_DIR = path.resolve(__dirname, 'src/client/public');
-var SRC_DIR = path.resolve(__dirname, 'src/client/src');
+var BUILD_DIR = path.resolve(__dirname, './public');
+var SRC_DIR = path.resolve(__dirname, './src');
 
 const ShakePlugin = require('webpack-common-shake').Plugin;
 
